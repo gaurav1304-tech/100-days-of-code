@@ -1,0 +1,17 @@
+Q7: Write a program to swap two numbers without using a third variable.
+
+#include <stdio.h>
+int main()
+{
+int a, b;
+printf("The first number is: ");
+scanf("%d", &a);
+printf("The second number is: ");
+scanf("%d", &b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("The first number after swaped is: %d\n", a);
+printf("The second number after swaped is: %d\n", b);
+return 0;
+}

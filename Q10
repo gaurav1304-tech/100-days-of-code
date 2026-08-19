@@ -7,8 +7,9 @@ int second, minutes, hour;
 printf("The time in seconds is: ");
 scanf("%d", &second);
 hour = second/(60*60);
-minutes =  second%60;
-second = second/(60*60);
+second = second%(60*60);
+minutes =  second/60;
+second = second%60;
 printf("The Time is: %dhr %dmin %ds", hour, minutes, second);
 return 0;
 }

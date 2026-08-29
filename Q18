@@ -10,19 +10,24 @@ int main() {
     if (percentage < 0 || percentage > 100) {
         printf("Invalid percentage. Enter a value between 0 and 100.\n");
     }
-    else if (percentage >= 90) {
+    else if (percentage >= 90) 
+    {
         printf("Grade A\n");
     }
-    else if (percentage >= 80) {
+    else if (percentage >= 80) 
+    {
         printf("Grade B\n");
     }
-    else if (percentage >= 70) {
+    else if (percentage >= 70)
+    {
         printf("Grade C\n");
     }
-    else if (percentage >= 60) {
+    else if (percentage >= 60) 
+    {
         printf("Grade D\n");
     }
-    else {
+    else 
+    {
         printf("Grade F\n");
     }
 
